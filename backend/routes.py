@@ -17,6 +17,7 @@ def create_friend():
     try:
         data=request.json #Get the JSON data from the request body
         #validations
+        print("data: ", data)
         required_fields=["name","role","description","gender"]
         for field in required_fields:
             if field not in data or not data.get(field):

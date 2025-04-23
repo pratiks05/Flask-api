@@ -28,7 +28,7 @@ function App() {
           >
       
           </Text>
-          My Besties {" 🚀"}
+           All Employee {" 🚀"}
         </Text>
         <UserGrid users={users} setUsers={setUsers}/>
       </Container>

@@ -53,7 +53,7 @@ const UserGrid = ({ users, setUsers }) => {
 						<Text as={"span"} fontSize={"2xl"} fontWeight={"bold"} mr={2}>
 							Poor you! 🥺
 						</Text>
-						No friends found.
+						No Employee Found!!
 					</Text>
 				</Flex>
 			)}
